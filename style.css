@@ -4,7 +4,7 @@ font-family: 'Roboto', sans-serif;
 margin: 0;
 }
 #img-cover{
-    background-image: url(images/donation13.jpg);
+    background-image: url(images/donation9.jpg);
     background-position: center;
     width: 100%;
     height: 100vh;
@@ -25,14 +25,17 @@ h1{
     text-align: center;
 }
 .button{
-    background-color: coral;
+    background-color: rgb(243, 55, 55);
     margin-top: 10px;
     margin-left: 30px;
     padding: 10px 30px;
-    border: 5px solid coral;
+    border: 5px solid rgb(243, 55, 55);
     border-radius: 20px;
     color: white;
     font-weight: 700;
+}
+.margin{
+    margin-bottom: 150px;
 }
 .donate-amount{
     margin-left: 15%;
@@ -50,33 +53,37 @@ h1{
     background-color: rgb(250, 225, 225);
     
 }
-#donation-plan{
-    width: 100%;
-    height: 100vh;
+.donation-plan{
+    text-align: center;
+    margin-left: 15%
 }
 .donation{
     text-align: center;
     width: 80%;
-    margin: 20px;
-    margin: 20px;
+    margin: 10px;
 
 }
 
 .flex{
     display: flex;
+    margin-left: -15%;
 }
 .half-wight{
-    width: 50%;
+    width: 40%;
     padding: 5%;
 }
 .half-wight img{
     width: 90%;
     padding: 5%
 }
+.img-size{
+    height: 100px;
+    width: 100px;
+}
 
 #color{
     background-color: black;
-    height: 250px;
+    height: 200px;
     text-align: center;
 }
 .bg-color{
@@ -92,7 +99,7 @@ h1{
     margin: 5%;
 }
 .bg-color-last{
-    height: 150px;
+    padding: 70px 0;
     background-color: rgb(241, 189, 183);
     margin-left: 15%;
 }
@@ -101,4 +108,14 @@ h1{
 }
 #p{
     color: slategrey;
+}
+#input-bg{
+    background-color: rgb(219, 193, 190);
+}
+#email{
+    background-color: rgb(243, 55, 55);
+    margin-left: 0;
+    padding-left: 20px;
+    color: white;
+    font-weight: 700;
 }
