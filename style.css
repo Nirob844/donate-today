@@ -53,6 +53,15 @@ h1{
     background-color: rgb(250, 225, 225);
     
 }
+#other {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 70px;
+    border-bottom: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
 .donation-plan{
     text-align: center;
     margin-left: 15%
