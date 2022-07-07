@@ -121,6 +121,8 @@ h1{
 }
 #input-bg{
     background-color: rgb(219, 193, 190);
+    border: none;
+    font-size: 20px;
 }
 #email{
     background-color: rgb(243, 55, 55);
@@ -128,4 +130,6 @@ h1{
     padding-left: 20px;
     color: white;
     font-weight: 700;
+    border: none;
+    font-size: 20px;
 }
